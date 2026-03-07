@@ -92,6 +92,18 @@ Skills
 
 Goal: Learn database, AJAX, settings API.
 
+`Project 8: Simple Post Title Collector Plugin`
+
+What it does
+- Collect all posts title
+- Display them in a list
+- Show total number of posts
+
+Skills
+- `$wpdb`
+- DB query
+- Shortcode
+
 `Project 5: Contact Form Plugin`
 
 This is one of the best learning projects.
