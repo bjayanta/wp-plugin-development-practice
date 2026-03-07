@@ -21,7 +21,6 @@ What it does
 - Shows message like: Hello Jayanta!
 
 Skills you learn
-- Plugin structure
 - Shortcodes
 - Attributes
 
@@ -37,11 +36,19 @@ Welcome to my plugin!
 ```
 
 Skills
-- add_action()
-- Admin hooks
+- `admin_notices` hook
 - WordPress dashboard interaction
 
-`Project 4: Custom Admin Menu Plugin`
+`Project 4: Admin dashboard Widget Plugin`
+
+What it does
+- Shows a widget in WordPress dashboard
+
+Skills
+- `wp_dashboard_setup` hook
+- WordPress dashboard interaction
+
+`Project 5: Custom Admin Menu Plugin`
 
 You already started something like this.
 
@@ -55,7 +62,7 @@ Skills
 - Plugin UI
 - Form submission
 
-`Project 5: Simple Content Restriction Plugin`
+`Project 6: Simple Content Restriction Plugin`
 
 What it does
 - Restrict content to logged-in users
