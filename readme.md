@@ -48,7 +48,17 @@ Skills
 - `wp_dashboard_setup` hook
 - WordPress dashboard interaction
 
-`Project 5: Custom Admin Menu Plugin`
+`Project 5: Get current user details`
+
+What it does
+- Shows current user details in WordPress post
+
+Skills
+- `wp_get_current_user()` function
+- `add_shortcode()` function
+- Shortcode
+
+`Project 6: Custom Admin Menu Plugin`
 
 You already started something like this.
 
@@ -62,7 +72,7 @@ Skills
 - Plugin UI
 - Form submission
 
-`Project 6: Simple Content Restriction Plugin`
+`Project 7: Simple Content Restriction Plugin`
 
 What it does
 - Restrict content to logged-in users
