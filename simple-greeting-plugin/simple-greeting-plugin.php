@@ -12,9 +12,12 @@
 if (!defined('ABSPATH')) exit;
 
 // Add greeting to the content
-function simple_greeting_plugin_display_greeting($content) {
+function simple_greeting_plugin_display_greeting($attr) {
     $hour = date('G');
     $greeting = '';
+    $attr = array_merge([
+        'name' => 'Guest'
+    ], $attr);
 
     if ($hour < 12) {
         $greeting = 'Good morning!';
@@ -24,6 +27,6 @@ function simple_greeting_plugin_display_greeting($content) {
         $greeting = 'Good evening!';
     }
 
-    return $greeting . ' ' . $content;
+    return $greeting . ' ' . $attr['name'];
 }
-add_filter('the_content', 'simple_greeting_plugin_display_greeting');
+add_shortcode('greeting', 'simple_greeting_plugin_display_greeting');
