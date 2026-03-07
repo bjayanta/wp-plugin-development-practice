@@ -106,7 +106,7 @@ Skills
 - CRUD operations
 - Admin UI
 
-## Stage 3 Projects (Advanced Plugins)
+## Stage 3: Advanced Plugin Development (4–8 Months)
 
 Goal: Build real-world plugins.
 
@@ -148,7 +148,7 @@ Skills
 - Filters
 - Custom fields
 
-## Stage 4 Projects (Professional Level)
+## Stage 4: Professional Level (1–2 Years)
 
 Goal: Build plugins people will actually use.
 
