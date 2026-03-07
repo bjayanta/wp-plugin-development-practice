@@ -4,7 +4,17 @@ WordPress Plugin Developer Roadmap
 
 Goal: Understand plugin structure, hooks, shortcodes, admin menus.
 
-`Project 1: Simple Greeting Plugin`
+`Project 1: Hello World Plugin`
+
+What it does
+- Shows "Hello World" on the frontend
+
+Skills you learn
+- Plugin structure
+- Registers a callback function using `add_action()`
+- `wp_footer` (hook)
+
+`Project 2: Simple Greeting Plugin`
 
 What it does
 - Create shortcode [greeting name="Jayanta"]
@@ -15,7 +25,7 @@ Skills you learn
 - Shortcodes
 - Attributes
 
-`Project 2: Admin Notice Plugin`
+`Project 3: Admin Notice Plugin`
 
 What it does
 - Shows a notice in WordPress dashboard
@@ -31,7 +41,7 @@ Skills
 - Admin hooks
 - WordPress dashboard interaction
 
-`Project 3: Custom Admin Menu Plugin`
+`Project 4: Custom Admin Menu Plugin`
 
 You already started something like this.
 
@@ -45,7 +55,7 @@ Skills
 - Plugin UI
 - Form submission
 
-`Project 4: Simple Content Restriction Plugin`
+`Project 5: Simple Content Restriction Plugin`
 
 What it does
 - Restrict content to logged-in users
