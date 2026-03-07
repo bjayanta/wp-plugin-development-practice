@@ -27,6 +27,16 @@ function simple_greeting_plugin_display_greeting($attr) {
         $greeting = 'Good evening!';
     }
 
-    return $greeting . ' ' . $attr['name'];
+    return '<h3 style="color: blue;">' . $greeting . ' ' . $attr['name'] . '</h3>';
 }
+
 add_shortcode('greeting', 'simple_greeting_plugin_display_greeting');
+
+// Admin notice
+add_action('admin_notices', 'simple_greeting_plugin_admin_notice');
+
+function simple_greeting_plugin_admin_notice() {
+    echo '<div class="notice notice-success is-dismissible">';
+    echo '<p>Simple Greeting Plugin is active.</p>';
+    echo '</div>';
+}
