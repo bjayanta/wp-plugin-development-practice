@@ -101,8 +101,25 @@ What it does
 
 Skills
 - `$wpdb`
-- DB query
-- Shortcode
+- `WP_Query`, `have_posts()`, `the_post()` - Object
+- `get_the_ID()`, `get_the_permalink()`, `get_the_title()` - Function
+
+`Project 9: CSV data uploader`
+
+This plugin will uploads CSV data to DB table.
+
+Features
+- Shortcode form
+- Custom table
+- AJAX submit
+- Save messages in database
+- Admin page to view messages
+
+Skills
+- $wpdb
+- AJAX
+- Form security
+- Nonce
 
 `Project 5: Contact Form Plugin`
 
